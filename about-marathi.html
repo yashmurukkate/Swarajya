@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  padding: 7px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+background-color: #FF8C00;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+a {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>आमच्याबद्दल </h1>
+</div>
+<br>
+<h2 style="text-align:center">आमची टीम</h2>
+<br><br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>रितिका सोनवणे</h2>
+        <p>महाविद्यालय - ई.एस.एस.पी. पॉलिटेक्निक  </p>
+        <p>ritikasonawane@gmail.com</p>
+        <p><a class="single" href="tel:+1234567890">संपर्क</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>अथर्व कदम</h2>
+        <p>महाविद्यालय - ई.एस.एस.पी. पॉलिटेक्निक </p>
+        <p>atharvakadam@gmail.com</p>
+  <p><a class="single" href="tel:+5555555555">संपर्क</a></p>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>यश मुरकुटे</h2>
+        <p>महाविद्यालय ई.एस.एस.पी. पॉलिटेक्निक </p>
+        <p>yashmurukate@gmail.com</p>
+  <p><a class="single" href="tel:+9999999999">संपर्क</a></p>
+
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>अनिश खांडके</h2>
+        <p>महाविद्यालय - ई.एस.एस.पी. पॉलिटेक्निक</p>
+        <p>anishkhandke@gmail.com</p>
+  <p><a class="single" href="tel:+4444444444">संपर्क</a></p>
+        </div>
+    </div>
+  </div>
+  
+</html>

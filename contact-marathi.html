@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: #FF8C00;
+}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>संपर्क फॉर्म</h3>
+
+<div class="container">
+  <form action="successfully-marathi.html">
+    <label for="fname">नाव</label>
+    <input type="text" id="fname" name="firstname" placeholder="नाव..">
+
+    <label for="lname">आडनाव</label>
+    <input type="text" id="lname" name="lastname" placeholder="आडनाव..">
+
+    <label for="lname">जीमेल</label>
+    <input type="text" id="gmail" name="gmail" placeholder="जीमेल..">
+
+
+    <label for="country">देश</label>
+    <select id="country" name="country">
+      <option value="india">भारत</option>
+      <option value="australia">ऑस्ट्रेलिया</option>
+      <option value="usa">यूएसए</option>
+    </select>
+
+    <label for="subject">विषय</label>
+    <textarea id="subject" name="subject" placeholder="विषय.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
